@@ -9,3 +9,12 @@ body, p {
 	font-family: $serif;
 	color: $dark;
 }
+
+a {
+	color: $primary;
+	text-decoration: none;
+	&:hover {
+		color: darken($primary, 8%);
+		text-decoration: underline;
+	}
+}

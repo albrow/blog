@@ -1,0 +1,28 @@
+.content {
+	padding: 50px;
+}
+
+.colors {
+	margin-left: 50px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: $dark;
+	float: left;
+	margin-left: -50px;
+	border-radius: 100%;
+}
+
+.circle.primary {
+	background-color: $primary;
+}
+
+.circle.secondary {
+	background-color: $secondary;
+}
+
+.circle.dark {
+	background-color: $dark;
+}
